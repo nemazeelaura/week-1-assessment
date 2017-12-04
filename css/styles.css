@@ -1,0 +1,101 @@
+
+*,
+*:before,
+*after {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+body {
+	width: 850px;
+	height: 800px;
+	margin: 0 auto;
+	background-image: url(../images/bgtile.png);
+	background-repeat: repeat-x;
+}
+main {
+	font-family: Helvetica, Arial, Sans-Serif;
+	width: 95%;
+	height: 95%;
+	margin: 0 auto;
+}
+section	{
+	width: 45%
+	height: 90%;
+}
+.phones {
+	margin-top: 70px;
+}
+img {
+	display: block;
+}
+#iphones {
+	float: left;
+	padding-right: 40px;
+
+}
+.instagram {
+	display: block;
+	margin-top: 70px;
+	padding-top: 15px;
+}
+#logo {
+	float: left;
+}
+nav: {
+	display: block;
+	width: 200px;
+	height: 60px
+	margin: 0;
+}
+.test {
+	margin-top: 20px;
+	margin-right: 50px;
+}
+a {
+	float: left;
+	padding: 5px 0 0 50px;
+	clear: right;
+}
+#home {
+	display: inline-block;
+}
+button {
+	clear: both;
+}
+.button {
+ 	background: #4d82ac;
+ 	border-radius: 2px;
+ 	border: 1px;
+ 	border-color: #336289;
+ 	color: white;
+ 	text-align: right;
+ 	padding: 0 5px 0 0;
+ 	display: inline-block;
+ 	width: 70px;
+ 	height: 25px;
+ 	font-size: 12px;
+}
+    
+/*.instagram {
+	display: block;
+	margin-top: 70px;
+	background-image: url(../images/brand.png);
+	background-repeat: no-repeat;
+}*/
+/*section {
+	width: 318px;
+	height: 512px;
+	padding-top: 20px;
+	margin: 0;
+}*/
+/*.phone {
+	background-image: url(../images/phones.png);
+	background-repeat: no-repeat;
+	background-size: 251.2px 401.6px;
+	position: relative;
+	width: 45%;
+	height: 90%;
+	margin: 70px;
+}
+*/
