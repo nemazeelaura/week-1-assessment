@@ -1,4 +1,9 @@
 
+/* 
+date 12/10/17 css pixel perfect week one
+page working going to add section tags and article tags next
+*/
+
 *,
 *:before,
 *after {
@@ -19,10 +24,10 @@ main {
 	width: 95%;
 	height: 95%;
 	margin: 70px auto;
-	background-color: green;
+/*	background-color: green;*/
 	padding: 30px;
 }
-/*_________boxes_______________*/
+/* =========== boxes =========== */
 
 .box1 {
 	width: 30%;
@@ -35,7 +40,7 @@ main {
 .box2 {
 	width: 50%;
 	height: 90%;
-	background: red;
+/*	background: red;*/
 	display: block;
 	float: left;
 /*	clear: right;
@@ -53,21 +58,20 @@ main {
 .box3 {
 	width: 50%;
 	height: 90%;
-	background: red;
+	background: white;
+	border-radius: 7px;
 	display: inline-block;
 	float: left;
 	clear: right;
-	border: 10px black solid;
 	margin: 10px;
 	clear: right;
+	padding: 30px;
 }
 .box4 {
-	width: 50%;
+	width: 70%;
 	height: 90%;
-	background: red;
 	display: inline-block;
 	margin: 0 auto;
-	border: 1px black solid;
 	text-align: center;
 }
 .clearfix:after {
@@ -81,9 +85,12 @@ main {
 .box5 {
 	width: 100%;
 	height: 30%;
-	background: red;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
 	display: inline-block;
 	clear: both;
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 .right {
 	float: right;
@@ -92,7 +99,7 @@ main {
 	float: left;
 }
 
-/*________________________*/
+/* =========== boxes =========== */
 
 	
 
