@@ -43,17 +43,21 @@ main {
 /*	background: red;*/
 	display: block;
 	float: left;
+	margin: 50px 0 0 0;
+	vertical-align: middle;
 /*	clear: right;
 *//*	border: 10px black solid;
 	margin: 10px*/
 }
 .home {
-	width: 100px;
- 	height: 40px;
+	width: 80px;
+ 	height: 31px;
 	display: inline-block;
 	float: right;
-	background: blue;
-/*	margin: 20px 5px 100px 0;*/
+	background: #6693b4;
+	padding: 14px 10px  0 10px;
+	border-radius: 5px;
+	border: 1px solid darkblue;
 }
 .box3 {
 	width: 50%;
@@ -99,10 +103,9 @@ main {
 	float: left;
 }
 
-/* =========== boxes =========== */
+/* =========== sections =========== */
 
 	
-
 
 section	{
 	width: 45%
@@ -138,9 +141,13 @@ nav: {
 	margin-right: 50px;
 }
 a {
-	float: left;
-	padding: 5px 0 0 50px;
+	float: right;
+	padding: 0;
 	clear: right;
+	font-size: 16px;
+	color: white;
+	font-style: bold;
+	text-decoration: none;
 }
 #home {
 	display: inline-block;
