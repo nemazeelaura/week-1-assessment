@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Instagram</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- 	main section of page -->
+	<main>
+		<!-- 	big pic of phone -->
+		<section class="phones"> 
+			<img id="iphones" src="images/phones.png" alt="iphone image">
+		</section>
+		<!-- 	second column -->
+		<section class="instagram">
+			<img id="logo" src="images/brand.png" alt="instagram logo image">
+			<nav>
+				<div class="test">
+					<a href="#"><img id="home" src="images/home.png" alt="home"></a>
+					<button class="button">Log in</button>
+				</div>
+			</nav>
+			<div>
+				<h1>Capture and Share the World's Moments</h1>
+				<img id="whitebox" src="images/frame.png" alt="white box">
+				<p>Instagram is a fast, beautiful and fun way to share your life with friends and family.</p>
+				<p>Take a picture or video, choose a filter to transform its look and feel, then post to Facebook, Twitter, Tubler and more. it's a new way to see the world.</p>
+				<p>Oh yeah, did we mention it's free?</p>
+				<img id="iphone" src="images/badge-iphone.png" alt="iphone image">
+				<img id="android" src="images/badge-android.png" alt="android image">
+			</div>
+		</section>
+
+	</main>
+</body>
+<footer>
+	<ul>
+		<li>about us</li>
+		<li>support</li>
+		<li>blog</li>
+		<li>press</li>
+		<li>api</li>
+		<li>jobs</li>
+		<li>privacy</li>
+		<li>terms</li>
+		<li><p class="copyright">© 2014 instagram</p></li>
+	</ul>
+</footer>
+</html>

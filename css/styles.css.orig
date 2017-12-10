@@ -12,91 +12,13 @@ body {
 	margin: 0 auto;
 	background-image: url(../images/bgtile.png);
 	background-repeat: repeat-x;
-	background-color: white;
 }
 main {
 	font-family: Helvetica, Arial, Sans-Serif;
 	width: 95%;
 	height: 95%;
-	margin: 70px auto;
-	background-color: green;
-	padding: 30px;
-}
-/*_________boxes_______________*/
-
-.box1 {
-	width: 30%;
-	min-width: 30%;
-	height: 90%;
-	display: inline-block;
-	float: left;
-	margin: 30px
-}
-.box2 {
-	width: 50%;
-	height: 90%;
-	background: red;
-	display: block;
-	float: left;
-/*	clear: right;
-*//*	border: 10px black solid;
-	margin: 10px*/
-}
-.home {
-	width: 100px;
- 	height: 40px;
-	display: inline-block;
-	float: right;
-	background: blue;
-/*	margin: 20px 5px 100px 0;*/
-}
-.box3 {
-	width: 50%;
-	height: 90%;
-	background: red;
-	display: inline-block;
-	float: left;
-	clear: right;
-	border: 10px black solid;
-	margin: 10px;
-	clear: right;
-}
-.box4 {
-	width: 50%;
-	height: 90%;
-	background: red;
-	display: inline-block;
 	margin: 0 auto;
-	border: 1px black solid;
-	text-align: center;
 }
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
-}
-.box5 {
-	width: 100%;
-	height: 30%;
-	background: red;
-	display: inline-block;
-	clear: both;
-}
-.right {
-	float: right;
-}
-.left {
-	float: left;
-}
-
-/*________________________*/
-
-	
-
-
 section	{
 	width: 45%
 	height: 90%;
@@ -105,7 +27,7 @@ section	{
 	margin-top: 70px;
 }
 img {
-	display: inline-block;
+	display: block;
 }
 #iphones {
 	float: left;
@@ -137,10 +59,12 @@ a {
 }
 #home {
 	display: inline-block;
+	position: absolute;
 }
-/*button {
+}
+button {
 	clear: both;
-}*/
+}
 .button {
  	background: #4d82ac;
  	border-radius: 2px;
@@ -150,8 +74,8 @@ a {
  	text-align: right;
  	padding: 0 5px 0 0;
  	display: inline-block;
- 	width: 100px;
- 	height: 40px;
+ 	width: 70px;
+ 	height: 25px;
  	font-size: 12px;
 }
 /*article {
@@ -161,15 +85,9 @@ a {
 #whitebox {
 	background: white
 }
-
-ul, li {
-	display: inline-block;
-	text-decoration: none: 
+div {
+	
 }
-
-
-
-
 
 
 
@@ -201,4 +119,3 @@ ul, li {
 	margin: 70px;
 }
 */
-
